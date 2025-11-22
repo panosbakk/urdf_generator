@@ -1,0 +1,63 @@
+{
+    "robot_name": "Tesla_2DOF_Arm",
+    "components": [
+        {
+            "id": "6e4d74ae-ed1f-461b-acb8-5c3af8f76269",
+            "name": "base_link",
+            "type": "Link",
+            "mass": 10.0,
+            "inertia": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "cm": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        {
+            "id": "f522fd5b-dc3a-44ae-a8a8-33fee0022cbc",
+            "name": "link_1",
+            "type": "Link",
+            "mass": 5.0,
+            "inertia": [
+                0.5,
+                0.5,
+                0.5
+            ],
+            "cm": [
+                0.5,
+                0.0,
+                0.0
+            ]
+        },
+        {
+            "id": "e3593869-5a3c-4a22-8f16-e3f649ad4b8e",
+            "name": "link_2",
+            "type": "Link",
+            "mass": 3.0,
+            "inertia": [
+                0.3,
+                0.3,
+                0.3
+            ],
+            "cm": [
+                0.4,
+                0.0,
+                0.0
+            ]
+        },
+        {
+            "id": "445d6f66-09eb-4e12-8c92-2adc380ec2eb",
+            "name": "shoulder_joint",
+            "type": "RevoluteJoint"
+        },
+        {
+            "id": "02ef6218-81d5-420b-8d5d-9b6b777b0a7a",
+            "name": "elbow_joint",
+            "type": "RevoluteJoint"
+        }
+    ]
+}
